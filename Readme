@@ -1,0 +1,13 @@
+api = 2
+core = 7.x
+
+; Include the definition for how to build Drupal core directly, including patches:
+includes[] = drupal-org-core.make
+
+; Descargar profile prueba oa:
+projects[sc_prueba_oa][type] = profile
+projects[sc_prueba_oa][download][type] = git
+projects[sc_prueba][download][url] = "git://github.com/empsc/sc_prueba_oa.git"
+;projects[sc_prueba_oa][download][branch] = 7.x-2.x
+
+
